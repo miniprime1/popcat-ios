@@ -1,4 +1,4 @@
-# PopCat for iOS ver 1.0
+# PopCat for iOS
 pop pop pop pop pop pop pop
 
 ## How to use
