@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899730E626F6CE5C00A954C2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730E526F6CE5C00A954C2 /* Tests_iOS.swift */; };
+		899730F126F6CE5C00A954C2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730F026F6CE5C00A954C2 /* Tests_macOS.swift */; };
+		899730F326F6CE5C00A954C2 /* popcat_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730CA26F6CE5B00A954C2 /* popcat_iosApp.swift */; };
+		899730F426F6CE5C00A954C2 /* popcat_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730CA26F6CE5B00A954C2 /* popcat_iosApp.swift */; };
+		899730F526F6CE5C00A954C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730CB26F6CE5B00A954C2 /* ContentView.swift */; };
+		899730F626F6CE5C00A954C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899730CB26F6CE5B00A954C2 /* ContentView.swift */; };
+		899730F726F6CE5C00A954C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899730CC26F6CE5C00A954C2 /* Assets.xcassets */; };
+		899730F826F6CE5C00A954C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899730CC26F6CE5C00A954C2 /* Assets.xcassets */; };
+		8997312A26F6EF5300A954C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8997312026F6EB5400A954C2 /* AVFoundation.framework */; };
+		8997312C26F6F32D00A954C2 /* popcat_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8997312B26F6F32D00A954C2 /* popcat_sound.mp3 */; };
+		8997312D26F6F32D00A954C2 /* popcat_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8997312B26F6F32D00A954C2 /* popcat_sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899730E226F6CE5C00A954C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899730C526F6CE5A00A954C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899730D026F6CE5C00A954C2;
+			remoteInfo = "popcat-ios (iOS)";
+		};
+		899730ED26F6CE5C00A954C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899730C526F6CE5A00A954C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899730D826F6CE5C00A954C2;
+			remoteInfo = "popcat-ios (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899730CA26F6CE5B00A954C2 /* popcat_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popcat_iosApp.swift; sourceTree = "<group>"; };
+		899730CB26F6CE5B00A954C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		899730CC26F6CE5C00A954C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		899730D126F6CE5C00A954C2 /* popcat-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popcat-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899730D426F6CE5C00A954C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899730D926F6CE5C00A954C2 /* popcat-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popcat-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899730DB26F6CE5C00A954C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899730DC26F6CE5C00A954C2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		899730E126F6CE5C00A954C2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899730E526F6CE5C00A954C2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		899730E726F6CE5C00A954C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899730EC26F6CE5C00A954C2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899730F026F6CE5C00A954C2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		899730F226F6CE5C00A954C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8997312026F6EB5400A954C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8997312526F6ED2700A954C2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8997312B26F6F32D00A954C2 /* popcat_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = popcat_sound.mp3; sourceTree = "<group>"; };
+		8997312E26F6F6CA00A954C2 /* popcat-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "popcat-ios.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899730CE26F6CE5C00A954C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730D626F6CE5C00A954C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8997312A26F6EF5300A954C2 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730DE26F6CE5C00A954C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730E926F6CE5C00A954C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899730C426F6CE5A00A954C2 = {
+			isa = PBXGroup;
+			children = (
+				8997312E26F6F6CA00A954C2 /* popcat-ios.entitlements */,
+				899730C926F6CE5B00A954C2 /* Shared */,
+				899730D326F6CE5C00A954C2 /* iOS */,
+				899730DA26F6CE5C00A954C2 /* macOS */,
+				899730E426F6CE5C00A954C2 /* Tests iOS */,
+				899730EF26F6CE5C00A954C2 /* Tests macOS */,
+				899730D226F6CE5C00A954C2 /* Products */,
+				8997311F26F6EB5400A954C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		899730C926F6CE5B00A954C2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8997312B26F6F32D00A954C2 /* popcat_sound.mp3 */,
+				899730CA26F6CE5B00A954C2 /* popcat_iosApp.swift */,
+				899730CB26F6CE5B00A954C2 /* ContentView.swift */,
+				899730CC26F6CE5C00A954C2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		899730D226F6CE5C00A954C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899730D126F6CE5C00A954C2 /* popcat-ios.app */,
+				899730D926F6CE5C00A954C2 /* popcat-ios.app */,
+				899730E126F6CE5C00A954C2 /* Tests iOS.xctest */,
+				899730EC26F6CE5C00A954C2 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899730D326F6CE5C00A954C2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				899730D426F6CE5C00A954C2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		899730DA26F6CE5C00A954C2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				899730DB26F6CE5C00A954C2 /* Info.plist */,
+				899730DC26F6CE5C00A954C2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		899730E426F6CE5C00A954C2 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				899730E526F6CE5C00A954C2 /* Tests_iOS.swift */,
+				899730E726F6CE5C00A954C2 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		899730EF26F6CE5C00A954C2 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				899730F026F6CE5C00A954C2 /* Tests_macOS.swift */,
+				899730F226F6CE5C00A954C2 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		8997311F26F6EB5400A954C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8997312526F6ED2700A954C2 /* AVKit.framework */,
+				8997312026F6EB5400A954C2 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899730D026F6CE5C00A954C2 /* popcat-ios (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899730FB26F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "popcat-ios (iOS)" */;
+			buildPhases = (
+				899730CD26F6CE5C00A954C2 /* Sources */,
+				899730CE26F6CE5C00A954C2 /* Frameworks */,
+				899730CF26F6CE5C00A954C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "popcat-ios (iOS)";
+			productName = "popcat-ios (iOS)";
+			productReference = 899730D126F6CE5C00A954C2 /* popcat-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899730D826F6CE5C00A954C2 /* popcat-ios (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899730FE26F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "popcat-ios (macOS)" */;
+			buildPhases = (
+				899730D526F6CE5C00A954C2 /* Sources */,
+				899730D626F6CE5C00A954C2 /* Frameworks */,
+				899730D726F6CE5C00A954C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "popcat-ios (macOS)";
+			productName = "popcat-ios (macOS)";
+			productReference = 899730D926F6CE5C00A954C2 /* popcat-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899730E026F6CE5C00A954C2 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8997310126F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				899730DD26F6CE5C00A954C2 /* Sources */,
+				899730DE26F6CE5C00A954C2 /* Frameworks */,
+				899730DF26F6CE5C00A954C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899730E326F6CE5C00A954C2 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 899730E126F6CE5C00A954C2 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		899730EB26F6CE5C00A954C2 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8997310426F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				899730E826F6CE5C00A954C2 /* Sources */,
+				899730E926F6CE5C00A954C2 /* Frameworks */,
+				899730EA26F6CE5C00A954C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899730EE26F6CE5C00A954C2 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 899730EC26F6CE5C00A954C2 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899730C526F6CE5A00A954C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					899730D026F6CE5C00A954C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					899730D826F6CE5C00A954C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					899730E026F6CE5C00A954C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 899730D026F6CE5C00A954C2;
+					};
+					899730EB26F6CE5C00A954C2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 899730D826F6CE5C00A954C2;
+					};
+				};
+			};
+			buildConfigurationList = 899730C826F6CE5A00A954C2 /* Build configuration list for PBXProject "popcat-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899730C426F6CE5A00A954C2;
+			productRefGroup = 899730D226F6CE5C00A954C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899730D026F6CE5C00A954C2 /* popcat-ios (iOS) */,
+				899730D826F6CE5C00A954C2 /* popcat-ios (macOS) */,
+				899730E026F6CE5C00A954C2 /* Tests iOS */,
+				899730EB26F6CE5C00A954C2 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899730CF26F6CE5C00A954C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730F726F6CE5C00A954C2 /* Assets.xcassets in Resources */,
+				8997312C26F6F32D00A954C2 /* popcat_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730D726F6CE5C00A954C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730F826F6CE5C00A954C2 /* Assets.xcassets in Resources */,
+				8997312D26F6F32D00A954C2 /* popcat_sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730DF26F6CE5C00A954C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730EA26F6CE5C00A954C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899730CD26F6CE5C00A954C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730F526F6CE5C00A954C2 /* ContentView.swift in Sources */,
+				899730F326F6CE5C00A954C2 /* popcat_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730D526F6CE5C00A954C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730F626F6CE5C00A954C2 /* ContentView.swift in Sources */,
+				899730F426F6CE5C00A954C2 /* popcat_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730DD26F6CE5C00A954C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730E626F6CE5C00A954C2 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899730E826F6CE5C00A954C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899730F126F6CE5C00A954C2 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899730E326F6CE5C00A954C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899730D026F6CE5C00A954C2 /* popcat-ios (iOS) */;
+			targetProxy = 899730E226F6CE5C00A954C2 /* PBXContainerItemProxy */;
+		};
+		899730EE26F6CE5C00A954C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899730D826F6CE5C00A954C2 /* popcat-ios (macOS) */;
+			targetProxy = 899730ED26F6CE5C00A954C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		899730F926F6CE5C00A954C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		899730FA26F6CE5C00A954C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		899730FC26F6CE5C00A954C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "popcat-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprime1.PopCat;
+				PRODUCT_NAME = "popcat-ios";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899730FD26F6CE5C00A954C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "popcat-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprime1.PopCat;
+				PRODUCT_NAME = "popcat-ios";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899730FF26F6CE5C00A954C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprime1.PopCat;
+				PRODUCT_NAME = "popcat-ios";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8997310026F6CE5C00A954C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprime1.PopCat;
+				PRODUCT_NAME = "popcat-ios";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8997310226F6CE5C00A954C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miniprime1.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "popcat-ios (iOS)";
+			};
+			name = Debug;
+		};
+		8997310326F6CE5C00A954C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miniprime1.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "popcat-ios (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8997310526F6CE5C00A954C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miniprime1.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "popcat-ios (macOS)";
+			};
+			name = Debug;
+		};
+		8997310626F6CE5C00A954C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 36BC248H4T;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miniprime1.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "popcat-ios (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899730C826F6CE5A00A954C2 /* Build configuration list for PBXProject "popcat-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899730F926F6CE5C00A954C2 /* Debug */,
+				899730FA26F6CE5C00A954C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899730FB26F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "popcat-ios (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899730FC26F6CE5C00A954C2 /* Debug */,
+				899730FD26F6CE5C00A954C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899730FE26F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "popcat-ios (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899730FF26F6CE5C00A954C2 /* Debug */,
+				8997310026F6CE5C00A954C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8997310126F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8997310226F6CE5C00A954C2 /* Debug */,
+				8997310326F6CE5C00A954C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8997310426F6CE5C00A954C2 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8997310526F6CE5C00A954C2 /* Debug */,
+				8997310626F6CE5C00A954C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899730C526F6CE5A00A954C2 /* Project object */;
+}
