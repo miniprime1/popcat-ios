@@ -13,7 +13,7 @@ pop pop pop pop pop pop pop
  - iOS 14.0+
 
  ## Version Release
- - [1.0] Basic features
+ - `[1.0]` Basic features
 
 ## How to install
  - 1. Install Xcode on your Mac or MacBook
