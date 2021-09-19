@@ -6,7 +6,8 @@ pop pop pop pop pop pop pop
  - 2. Click "Pop!" button.
 
 ## Resource
- - [Original GIF File](https://emoji.gg/emoji/9850_pop_pop_cat)
+ - [Original GIF File](https://emoji.gg/emoji/9850_pop_pop_cat) `[emoji.gg Basic License]`
+ - [Pop Sound Effect](https://orangefreesounds.com/pop-sound-effect/) `[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)]`
 
 ## Platform
  - iOS 14.0+
